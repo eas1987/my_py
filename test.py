@@ -9,4 +9,4 @@ for i in range(1, count + 1):
 print(new_list)
 
 b = 'test'
-print(f'{b} {2} {3} TEST')
+print(f'{b} {2} {3} TEST ')
