@@ -23,6 +23,8 @@ print('Кол-во четверок: ', my_list.count(4))
 print('Количество элементов ', len(my_list))
 print(my_list)
 
+print('ТестоваяСтрока'[1: 5: 1])  # - Начало: Конец: Шаг
+
 i = 0
 while i < len(my_list):
     print(my_list[i])
