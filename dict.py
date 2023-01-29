@@ -1,4 +1,5 @@
 
+# текст в формате json
 new_dict = {'key1': 'value 1', 'key2': 'value 2', 'key3': 'value 3'}
 # new_dict = dict(key1='value 1', key2='value 2')
 
