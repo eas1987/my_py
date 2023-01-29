@@ -5,3 +5,8 @@ my_string = 'test string'
 print(my_string.capitalize())  # С заглавной буквы
 print(my_string.split(' '))  # Разложить строку в массив подстрок
 print(my_string[1:5:1]) # - Начало: Конец: Шаг
+
+
+new_string = 'testrrtteettttt'
+new_string = sorted(new_string)
+print(''.join(new_string))
