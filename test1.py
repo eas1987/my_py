@@ -1,4 +1,4 @@
-value = input('Введите число ')
-print(f'Вы ввели число {float(value)}')
+a = -1
 
 
+print((0 >= a <= 2))
