@@ -1,4 +1,4 @@
-from builtins import print
+# from builtins import print
 
 b = 'test'
 print(f'{b} {2} {3} TEST')
