@@ -1,8 +1,7 @@
-exchange_rate = float(input())
+lst = list(map(str, input().split()))
+# # lst = input().split()
+# print(round(sum(lst) / len(lst), 1))
 
-sum_r = int(input())
+cities = lst +["Москва", "Тверь", "Вологда"]
 
-
-
-
-print(f'Вы можете получить {int(sum_r // exchange_rate)}$ за {sum_r} рублей по курсу {exchange_rate}')
+print(*cities)
