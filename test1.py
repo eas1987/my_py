@@ -1,7 +1,5 @@
 lst = list(map(str, input().split()))
-# # lst = input().split()
-# print(round(sum(lst) / len(lst), 1))
+lst.sort()
+lst.pop(0)
 
-cities = lst +["Москва", "Тверь", "Вологда"]
-
-print(*cities)
+print(*lst)
