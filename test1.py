@@ -1,5 +1,4 @@
-lst = list(map(str, input().split()))
-lst.sort()
-lst.pop(0)
-
-print(*lst)
+lst = [['1', '2', '5'],
+       ['2', '1']
+       ]
+print(str(lst).count('5'))
