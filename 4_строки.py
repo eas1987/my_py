@@ -1,8 +1,6 @@
 # from builtins import print
 
 b = 'test'
-print(f'{b} {2} {3} TEST')              # форматная строка
-print(r'E:\py_project\my_pytest.py')    # raw строка - игнорируются спец. символы
 
 print(len(b))                           # Длина строки
 print('st' in b)                        # Вхождение строки в подстроку

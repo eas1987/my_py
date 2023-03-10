@@ -1,8 +1,6 @@
 myStr = input()
-it = iter(myStr)
-while True:
-    elem = next(it)
-    if elem == ' ':
-        break
-    else:
-        print(elem, sep='', end='')
+print([int(symb) for symb in myStr])
+
+
+
+# print([i.join(['*', '*']) for i in 'test'])

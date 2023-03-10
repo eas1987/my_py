@@ -44,3 +44,14 @@ lst = [['1', '2', '5'],
        ['2', '1']
        ]
 print(sum(lst, [])) # ['1', '2', '5', '2', '1']
+
+
+
+# Генераторы списков (List comprehensions)
+lstComp = [i for i in range(-5, 5) if i <= 0] # Генератор + условие
+print('lstComp:', lstComp) # lstComp: [-5, -4, -3, -2, -1, 0]
+
+myLst = [1, 3, 5, 2, 2, 4]
+lstComp2 = ['чет' if val % 2 == 0 else 'нечет' for val in myLst] # Генератор + тернарный оператор условия
+print('lstComp2: ', lstComp2)
+
